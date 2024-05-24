@@ -1,0 +1,119 @@
+.container1{
+    display: flex;
+    width: full;
+    height: 120px;
+    flex-direction: row;
+    background-color: #151515;
+    color: aliceblue;
+}
+
+.menu a{
+    color: aliceblue;
+}
+
+.btn{
+    background-color: #A91D3A;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration-line: none;
+    font-size:111%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+}
+
+.btn:hover{
+    background-color:bisque;
+    color: #151515;
+    text-decoration-line: none;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 1800px;
+    gap: 20px;
+    align-items: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    background-color: #EEEEEE;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.h1h2{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    margin-top: 110px;
+    margin-left: 550px;
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        font-size: 1.6rem;
+    }
+}
+
+.container3{
+    background-color: whitesmoke;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.skills-heading{
+    display: flex;
+    flex-direction: column;
+    background-color: #A91D3A;
+    height: 400px;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+    color: #EEEEEE;
+}
+
+.skill-items{
+    display: flex;
+    flex-direction: row;
+    width: 2400px;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.span1{
+    color: #A91D3A;
+}
+.span1:hover{
+    color:darkslategray;
+}
+
+.intro{
+    background-color: #151515;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    h2{
+        font-size: 3rem;
+    }
+    p{
+        font-style: italic;
+        font-size: 2rem;
+    }
+    font-size: 1.5rem;
+}
